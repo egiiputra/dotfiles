@@ -1,0 +1,7 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/blood_moon.toml"
+]
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "regular" }

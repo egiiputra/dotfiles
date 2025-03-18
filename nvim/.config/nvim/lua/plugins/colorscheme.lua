@@ -9,4 +9,12 @@ return {
       colorscheme = "dracula",
     },
   },
+  --  {
+  --    "nvim-neo-tree/neo-tree.nvim",
+  --    opts = {
+  --      window = {
+  --        position = "right",
+  --      },
+  --    },
+  --  },
 }

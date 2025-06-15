@@ -1,0 +1,62 @@
+{
+    "editor.fontFamily": "'Fira Mono','JetBrainsMono Nerd Font', 'Droid Sans Mono', 'monospace'",
+    "svelte.enable-ts-plugin": true,
+    "window.menuBarVisibility": "visible",
+    "window.titleBarStyle": "custom",
+    "editor.fontWeight": 500,
+    "editor.fontLigatures": false,
+    "terminal.integrated.fontFamily": "'Fira Mono', 'JetBrainsMono Nerd Font', 'Droid Sans Mono', 'monospace'",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontWeight": 500,
+    "terminal.integrated.fontLigatures": false,
+    "editor.renderWhitespace": "trailing",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 2,
+    // Defining custom colors instead of default "Rainbow" for dark backgrounds.
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.3)",
+        "rgba(127,255,127,0.3)",
+        "rgba(255,127,255,0.3)",
+        "rgba(79,236,236,0.3)"
+    ],
+
+    // The indent color if the number of spaces is not a multiple of "tabSize".
+    "indentRainbow.errorColor": "rgba(128,32,32,0.6)",
+
+    // The indent color when there is a mix between spaces and tabs.
+    // To be disabled this coloring set this to an empty string.
+    "indentRainbow.tabmixColor": "rgba(128,32,96,0.6)",
+    "editor.guides.bracketPairs": "active",
+
+    // Catpuccin settings
+    "catppuccin.italicKeywords": false,
+    "catppuccin.italicComments": false,
+    "catppuccin.boldKeywords": false,
+    "workbench.activityBar.location": "top",
+    "window.customTitleBarVisibility": "auto",
+    "editor.fontSize": 12,
+    // "workbench.settings.applyToAllProfiles": [
+
+    // ],
+    "catppuccin.colorOverrides": {
+        // make Mocha "OLEDppuccin" - use black editor background
+        "mocha": {
+            "base": "#121212",
+            "mantle": "#111111",
+            "crust": "#101010",
+        },
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "extensions.ignoreRecommendations": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "git.confirmSync": false,
+    "workbench.settings.applyToAllProfiles": [
+
+
+    ],
+    "material-icon-theme.activeIconPack": "nest"
+}

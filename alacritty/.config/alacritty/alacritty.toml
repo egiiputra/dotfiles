@@ -1,7 +1,8 @@
 [general]
 import = [
-    "~/.config/alacritty/themes/themes/blood_moon.toml"
+    "~/.config/alacritty/themes/themes/hyper.toml"
 ]
 
 [font]
 normal = { family = "JetBrainsMono Nerd Font", style = "regular" }
+size = 10
